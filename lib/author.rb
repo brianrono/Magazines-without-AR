@@ -10,11 +10,11 @@ class Author
   end
 
   def magazines
-    Magazine.all.select { |magazine| magazine.author == self }
+    Magazine.all.select { |magazine| magazine.contributors.include?(self)}
   end
 
   def add_article(magazine, title)
-    article = Article.new(title, self)
+    article = Article.new(self, magazine, title)
   end
 
   def topic_areas

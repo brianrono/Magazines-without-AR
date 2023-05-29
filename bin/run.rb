@@ -22,4 +22,4 @@ puts author1.magazines.length
 puts magazine1.contributors.length
 puts Magazine.find_by_name("The News").category
 puts magazine1.article_titles
-puts magazine1.contributing_authors.map { |author| author.name }
+puts magazine1.contributors.map(&:name)
