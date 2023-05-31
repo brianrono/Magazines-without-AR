@@ -4,13 +4,13 @@ require_relative '../lib/article'
 
 # Create instances of authors, magazines, and articles
 author1 = Author.new("Brian Rono")
-author2 = Author.new("Peter Parker")
+author2 = Author.new("Bobba Fett")
 
-magazine1 = Magazine.new("The Times", "Category 1")
-magazine2 = Magazine.new("The News", "Category 2")
+magazine1 = Magazine.new("The Times", "General")
+magazine2 = Magazine.new("The News", "Specific")
 
-article1 = Article.new(author1, magazine1, "Article 1")
-article2 = Article.new(author2, magazine2, "Article 2")
+article1 = Article.new(author1, magazine1, "Front Page")
+article2 = Article.new(author2, magazine2, "Last Page")
 
 # Test methods
 puts author1.name

@@ -6,7 +6,7 @@ To run the project, follow these steps:
 
 1. Ensure you have Ruby installed on your computer. You can check the Ruby version by running the following command in your terminal:
 
-- ruby --version
+- ruby --version  
 2. Clone this repository to your local machine or download the source code.
 
 3. Open a terminal and navigate to the project directory.
